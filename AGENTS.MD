@@ -13,6 +13,28 @@ Applies to the entire project rooted at this directory.
 - Prefer safe, incremental changes over broad rewrites.
 - Do not remove existing data unless explicitly requested.
 
+## Git Workflow (Mandatory)
+
+- After every successful feature, bug fix, or requested adjustment, create a Git commit automatically.
+- A change is "successful" when implementation is complete and relevant checks/tests have passed or were explicitly acknowledged as not runnable.
+- Commit messages should be short and explicit, e.g.:
+  - `fix: sanitize crawler source suffix handling`
+  - `feat: add cipher card live filtering`
+
+### Critical Change Handling
+
+- The agent must decide if a change is critical based on risk.
+- Treat a change as critical when at least one applies:
+  - data migration or mass data rewrite/deletion
+  - auth, permissions, or security-sensitive logic
+  - infrastructure/runtime changes (deployment, Docker, scheduler behavior)
+  - broad cross-module refactors with regression risk
+- For critical changes:
+  - create a dedicated branch first (example: `critical/<short-topic>`)
+  - commit work on that branch
+  - ask for user confirmation that behavior is as expected
+  - merge into `main` only after explicit user confirmation
+
 ## Architecture Rules
 
 - Framework: Laravel.
