@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Gematrix</title>
+  <desc id="desc">Gematrix gematria calculator and phrase connection explorer.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070b"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g opacity="0.2" stroke="url(#line)">
+    <path d="M0 120 H1200"/>
+    <path d="M0 210 H1200"/>
+    <path d="M0 300 H1200"/>
+    <path d="M0 390 H1200"/>
+    <path d="M0 480 H1200"/>
+  </g>
+  <g font-family="Sora, Arial, sans-serif" fill="#e5e7eb">
+    <text x="96" y="240" font-size="74" font-weight="800">Gematrix</text>
+    <text x="96" y="304" font-size="30" fill="#93c5fd">Gematria Calculator, Explorer, and Match Intelligence</text>
+  </g>
+  <g transform="translate(96 362)" font-family="JetBrains Mono, monospace" font-size="28" fill="#67e8f9">
+    <text y="0">computer = 666</text>
+    <text y="44">matrix code = 127</text>
+    <text y="88">english_gematria • prime • jewish • reduction</text>
+  </g>
+</svg>

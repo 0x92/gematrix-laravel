@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gematrix UI Command</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#070b14; --card:#121a2b; --line:#25324f; --text:#e9f0ff; --muted:#9cb0d6; --accent:#58e1c1; }
+    *{box-sizing:border-box} body{margin:0;font-family:'Space Grotesk',sans-serif;background:radial-gradient(circle at 0 0,#13203a,transparent 40%),var(--bg);color:var(--text)}
+    .wrap{max-width:1100px;margin:0 auto;padding:28px 20px}
+    h1{margin:0 0 8px;font-size:clamp(1.6rem,3vw,2.4rem)} p{margin:0;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin-top:20px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;display:grid;gap:10px}
+    .card h3{margin:0;font-size:1rem} .tag{font-family:'JetBrains Mono',monospace;color:var(--accent);font-size:.8rem}
+    .btn{display:inline-block;text-decoration:none;color:#05131d;background:linear-gradient(120deg,var(--accent),#8df8e0);padding:8px 12px;border-radius:10px;font-weight:700}
+    .top{display:flex;justify-content:space-between;gap:8px;align-items:center;flex-wrap:wrap}
+    .ghost{color:var(--text);text-decoration:none;border:1px solid var(--line);padding:8px 12px;border-radius:10px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <h1>Gematrix UI Command Center</h1>
+        <p>10 different design concepts, each with a different framework/library/kit.</p>
+      </div>
+      <a class="ghost" href="/">Back to App</a>
+    </div>
+
+    <div class="grid">
+      <article class="card"><span class="tag">Tailwind + daisyUI</span><h3>Concept 01: Aurora Console</h3><a class="btn" href="./concept-01-daisyui.html">Open</a></article>
+      <article class="card"><span class="tag">Bootstrap 5</span><h3>Concept 02: Enterprise Glass</h3><a class="btn" href="./concept-02-bootstrap.html">Open</a></article>
+      <article class="card"><span class="tag">Bulma</span><h3>Concept 03: Editorial Blocks</h3><a class="btn" href="./concept-03-bulma.html">Open</a></article>
+      <article class="card"><span class="tag">UIkit</span><h3>Concept 04: Neon Orbit</h3><a class="btn" href="./concept-04-uikit.html">Open</a></article>
+      <article class="card"><span class="tag">Materialize</span><h3>Concept 05: Motion Surface</h3><a class="btn" href="./concept-05-materialize.html">Open</a></article>
+      <article class="card"><span class="tag">Semantic UI</span><h3>Concept 06: Analyst Deck</h3><a class="btn" href="./concept-06-semantic.html">Open</a></article>
+      <article class="card"><span class="tag">Pico.css</span><h3>Concept 07: Minimal Lab</h3><a class="btn" href="./concept-07-pico.html">Open</a></article>
+      <article class="card"><span class="tag">Shoelace</span><h3>Concept 08: Web Components</h3><a class="btn" href="./concept-08-shoelace.html">Open</a></article>
+      <article class="card"><span class="tag">Spectre.css</span><h3>Concept 09: Data Sheet</h3><a class="btn" href="./concept-09-spectre.html">Open</a></article>
+      <article class="card"><span class="tag">Pure.css</span><h3>Concept 10: Grid Classic</h3><a class="btn" href="./concept-10-pure.html">Open</a></article>
+    </div>
+  </div>
+</body>
+</html>
