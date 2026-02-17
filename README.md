@@ -65,6 +65,9 @@ Current configured ciphers:
 - `septenary_gematria`
 - `glyph_geometry_gematria`
 
+Full details (formula, method, examples, A-Z values for every cipher):
+- `docs/CIPHERS.md`
+
 ## News Crawler
 
 ### What it does
