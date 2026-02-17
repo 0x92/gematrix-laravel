@@ -50,11 +50,17 @@ Defined in `docker-compose.yml`:
 
 ## Ciphers
 
-Includes core and advanced ciphers, including:
+Current configured ciphers:
 - `english_gematria`
 - `simple_gematria`
+- `unknown_gematria`
+- `pythagoras_gematria`
+- `jewish_gematria`
 - `prime_gematria`
 - `reverse_satanic_gematria`
+- `clock_gematria`
+- `reverse_clock_gematria`
+- `system9_gematria`
 - `francis_bacon_gematria`
 - `septenary_gematria`
 - `glyph_geometry_gematria`
